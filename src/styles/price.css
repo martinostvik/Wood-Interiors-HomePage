@@ -1,0 +1,24 @@
+.price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.small-size {
+    font-style: italic;
+    font-size: 13px;
+    margin-top: -20px
+}
+
+.italic-size {
+    font-style: italic;
+}

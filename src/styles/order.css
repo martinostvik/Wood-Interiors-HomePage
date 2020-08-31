@@ -1,0 +1,17 @@
+.contact-link {
+    color: rgb(27, 27, 105);
+  }
+  
+  .contact-link:hover {
+    cursor: pointer;
+}
+
+.order {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: rgb(232, 232, 232);
+  }

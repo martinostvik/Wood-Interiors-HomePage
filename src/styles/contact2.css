@@ -1,0 +1,29 @@
+.contact {
+    display: flex;
+}
+
+.contact__section {
+    width: 50%;
+}
+
+.avatar-img {
+    width: 100px;
+}
+
+.contact-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-card {
+    display: flex;
+    padding: 20px
+}
+
+.contact-card__name {
+    font-family: oswald;
+  }
+  
+  .contact-card__details {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }

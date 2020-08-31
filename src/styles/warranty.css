@@ -1,0 +1,28 @@
+.warranty {
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+}
+
+.warranty__text {
+    color: #373535;
+    padding-left: 60px;
+    padding-top: 20px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.warranty__title {
+    font-family: oswald;
+    color: #373535;
+    font-size: 43px;
+}
+
+.padding-top {
+    padding-top: 50px
+}

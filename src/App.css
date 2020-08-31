@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html, body {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+.down-arrow{
+  animation: shake-arrow 5s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+  margin-top: 60px;
+}
+
+.down-arrow:hover {
+  cursor: pointer;
+}
+
+@keyframes shake-arrow {
+  2%, 18% {
+    transform: translate3d(0, -1px, 0);
+  }
+  
+  4%, 16% {
+    transform: translate3d(0, 2px, 0);
+  }
+
+  6%, 10%, 14% {
+    transform: translate3d(0, -4px, 0);
+  }
+
+  8%, 12% {
+    transform: translate3d(0, 4px, 0);
+  }
+
+  20%, 100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
